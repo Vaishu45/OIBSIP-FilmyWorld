@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600&family=Oswald:wght@200&family=Radio+Canada:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+}
+body{
+    background-color: black;
+}
+/* header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(255, 248, 248);
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.logo .bx{
+    font-size: 34px;
+    color: red;
+} */
+
+.comedy{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.comedy .main img{
+    height: auto;
+    width: 350px;
+    max-width: 100%;
+    border: 3px solid red;
+}
+.text{
+    width: 800px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+.main{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.text h2{
+    color: rgb(255, 230, 230);
+    font-size: 50px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    /* border-bottom: .2rem solid rgb(11, 253, 120); */
+
+}
+.text h3{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    /* border-bottom: .2rem solid rgb(255, 38, 0); */
+}
+.text h4{
+    color: rgb(255, 203, 13);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.text h4 span{
+    color: white;
+}
+.text p{
+
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 45px;
+}
+.button{
+    background-color: red;
+    color: white;
+    border: 2px solid transparent;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 17px;
+}
+.button:hover{
+    background: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
